@@ -1,3 +1,5 @@
+AOS.init();
+
 $(window).load(function(){
   $('#wrapper').addClass('loaded');
 })
