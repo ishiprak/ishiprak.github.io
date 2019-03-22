@@ -195,6 +195,44 @@ blockquote cite:before {
 
 /*********************************************************************************************************************************/
 
+
+#but1:hover{
+    -webkit-animation-name: heartBeat;
+    animation-name: heartBeat;
+    -webkit-animation-duration: 1.3s;
+    animation-duration: 1.3s;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+
+}
+
+@keyframes heartBeat {
+  0% {
+    
+     font-size: 23.5px
+  }
+
+  14% {
+    
+     font-size: 31.5px
+  }
+
+  28% {
+   
+     font-size: 23.5px
+  }
+
+  42% {
+   
+     font-size: 31.5px
+  }
+
+  70% {
+    
+     font-size: 23.5px
+  }
+}
+
 #foot{
   height: 22%;
   background-color: #c1af7b;
