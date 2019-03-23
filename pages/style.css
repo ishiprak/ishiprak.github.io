@@ -182,10 +182,10 @@ li a{
    text-align: center;
 }
  .share-btn {
-   background-color: #95a5a6;
+   background-color: #DD4B39;
 }
  .share-btn:hover {
-   background-color: #798d8f;
+   background-color: red;
 }
  .share-btn-twitter {
    background-color: #00aced;
