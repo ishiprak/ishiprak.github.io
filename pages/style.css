@@ -210,13 +210,14 @@ li a{
 }
  .share-btn-reddit:hover {
    background-color: #ba0016;
-   background-color: orange;
+   background-color: #DD4B39;
 }
-.share-btn-instagram{
-  background-color: #bc2a8d;
+.share-btn-googleplus{
+  background-color: #DD4B39;
 }
- .share-btn-instagram:hover{
+ .share-btn-googleplus:hover{
  background-color: #cd486b;
+ background-color: red;
 }
  .share-btn-mail {
    background-color: #f1c40f;
