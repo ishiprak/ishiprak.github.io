@@ -812,9 +812,9 @@ header:first-child{
 
 #card:hover,
 .hover {
-  -webkit-box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.6);
-  -moz-box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.6);
-  box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 0px 1px 31px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 1px 31px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 1px 31px 0px rgba(0, 0, 0, 0.5);
 }
 #card:hover #top-pic {
   -webkit-transform: scale(1.1);
