@@ -169,7 +169,7 @@ li a{
    overflow: hidden;
    text-align: center;
    width: 50%;
-   margin-left: 19.5%;
+   margin-left: -10%;
 }
 
  .social-share-btns .share-btn i {
@@ -182,10 +182,10 @@ li a{
    text-align: center;
 }
  .share-btn {
-   background-color: #DD4B39;
+   background-color: #95a5a6;
 }
  .share-btn:hover {
-   background-color: red;
+   background-color: #798d8f;
 }
  .share-btn-twitter {
    background-color: #00aced;
@@ -225,6 +225,54 @@ li a{
  .share-btn-mail:hover {
    background-color: #dab10d;
 
+}
+div#left {
+    width: 30%;
+    float: left;
+    text-align: left;
+    padding: 4px 24px;
+    color: #323232;
+    margin: 0;
+}
+div#left h2{
+  font-size: 1.7em;
+  margin: 15px 2px 12px;
+  font-family: Arial;
+}
+div#left p{
+  font-size: 0.83em;
+  margin: 5px 3px;
+  font-weight: 600;
+  color: #414141;
+  text-align: left;
+}
+#left a{
+  text-decoration: none;
+  color: #333;
+}
+div#right {
+    float: right;
+    text-align: right;
+    padding: 4px 24px;
+    color: #323232;
+    margin: 0;
+    margin-top: -70px;
+    padding-left: 14%;
+    text-align: left;
+}
+div#right h2{
+  font-size: 1.7em;
+  text-align: right;
+  margin: 13px 7px 12px;
+  font-family: Arial;
+}
+div#right p{
+  font-size: 0.83em;
+  display: block;
+  text-align: right;
+  margin: 5px 5px;
+  font-weight: 600;
+  color: #414141;
 }
 
  
@@ -353,12 +401,15 @@ blockquote cite:before {
   text-align: center;
 }
 
-#foot p{
+#foot #cred{
   padding: 0;
   padding-top: 1.5%; /*1.5*/
-  margin: 0 auto;
+  margin: 0 auto; 
+  text-align: center;
   color: #333;
   font-size: 0.67rem;
+  display: block; /**************latest change****************/
+
 }
 
 #foot a{
@@ -367,26 +418,42 @@ blockquote cite:before {
 }
 
 #copy{
+  padding: 0;
+  padding-top: 1.5%; /*1.5*/
+  margin: 0 auto;
+  margin-right: -5%; 
+  text-align: center;
+  color: #333;
+  font-size: 0.67rem;
+  display: block; 
   padding-top: 0.3% !important; 
   margin: 0 auto;
 }
+#sp{
+  width: 100%;
+  margin: 0 auto;
+}
 
-#foot span{
+#foot #cred{
   font-size: 10.8px;
   text-align: center;
   color: white;
   text-decoration:none;
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 30.8%;
 }
 
-#foot span .fa{
+#foot #cred .fa{
   color: #e74c3c;
 }
 
-#foot span a{
+#foot #cred a{
   text-align: center;
   vertical-align: center;
   color: white;
   text-decoration:none !important;
+  margin: 0 auto;
 }
 
 #cont{
